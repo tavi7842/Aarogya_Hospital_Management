@@ -60,6 +60,7 @@ public class Execution {
 						p[k].setGc_num(Long.parseLong(arr[10]));
 						p[k].setRecovered(arr[11]);
 						da.inserting_Patient_Details(p[k]);
+						k++;
 						break;
 					}
 				case 2:
